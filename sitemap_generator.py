@@ -44,5 +44,6 @@ def generate_sitemap(start_url):
 
 if __name__ == "__main__":
     start_url = "https://eddiegulay.me"
+    print(f"Generating sitemap for {start_url}...")
     generate_sitemap(start_url)
     print("Sitemap generated successfully.")
